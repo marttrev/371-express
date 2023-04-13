@@ -2,7 +2,7 @@ import express, {Application, Request, Response} from "express"
 import cors from "cors"
 
 const app: Application = express()
-const PORT = process.env.PORT ?? 8000
+const PORT = process.env.PORT ?? process.env
 const possibleSolutions: Array<string> = [
     "ABOVE", "BATHE", "CREAM", "DOLLS", "EVERY", "FROWN", "GROVE",
     "HIRED", "IONIC", "JUMPY", "KINDS", "LEMON", "MAKER", "NIECE",
